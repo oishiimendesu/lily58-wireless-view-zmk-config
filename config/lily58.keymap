@@ -18,14 +18,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        custom+prnscrn {
-            bindings = <&kp PRINTSCREEN>;
-            key-positions = <51 24 26>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
